@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script type="text/javascript" src='javascript.js'></script>
+    <title>Hola Mundo, que tranza</title>
+</head>
+
+<body>
+    <p id='p1'>Hola vato !</p>
+    <p id='p2'></p>
+    
+    <input type="text" placeholder="Escribe tu nombre..." id="inputNombre">
+
+    <div id="tipo">
+        <input type="radio" id="r1" name="escuela" value="estudiante" checked> Estudiante
+        <input type="radio" id="r2" name="escuela" value="maestro"> Maestro
+    </div>
+
+    <button type="button" onclick="saludos(document.getElementById('inputNombre').value);">Presioname</button>
+</body>
+
+</html>

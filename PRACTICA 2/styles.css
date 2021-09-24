@@ -1,0 +1,54 @@
+/* Background content */
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.header {
+  height: 100%;
+
+  background-image: url("./assets/beach.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content {
+  position: relative;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Action button styles */
+.btn {
+  position: absolute;
+  right: 0;
+
+  border-radius: 50%;
+
+  padding: 10px 10px 10px 12px;
+  color: black;
+  background-color: white;
+
+  text-decoration: none;
+}
+
+.btn-img {
+  height: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(241, 241, 241);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
